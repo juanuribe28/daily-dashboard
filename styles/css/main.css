@@ -1,0 +1,18 @@
+body {
+  height: 100vh;
+  width: 100vw;
+  margin: 0;
+}
+
+#dashboard {
+  display: -ms-grid;
+  display: grid;
+  place-items: stretch;
+  place-content: stretch;
+  -ms-grid-columns: (1fr)[9];
+      grid-template-columns: repeat(9, 1fr);
+  -ms-grid-rows: (1fr)[16];
+      grid-template-rows: repeat(16, 1fr);
+      grid-template-areas: ". . . . . . . . ." ". . . . . . . . ." ". . . . . . . . ." ". . . . . . . . ." ". . . . . . . . ." ". . . . . . . . ." ". . . . . . . . ." ". . . . . . . . ." ". . . . . . . . ." ". . . . . . . . ." ". . . . . . . . ." ". . . . . . . . ." ". . . . . . . . ." ". . . . . . . . ." ". . . . . . . . ." ". . . . . . . . .";
+}
+/*# sourceMappingURL=main.css.map */
