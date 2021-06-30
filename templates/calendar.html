@@ -1,0 +1,22 @@
+<div id="calendar">
+  <div id="month"></div>
+  <div id="events">
+    <div id="header">
+      <p>Events</p>
+    </div>
+    {{#events}}
+      <div class="daySection">
+        <div class="day">{{day}}</div>
+        <div class="items">
+          {{#items}}
+            <div class="item">
+              <p>{{summary}}</p>
+              <p>{{startTime}}</p>
+              <p>{{location}}</p>
+            </div>
+          {{/items}}
+        </div>
+      </div>
+    {{/events}}
+  </div>
+</div>
