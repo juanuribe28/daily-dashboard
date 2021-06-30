@@ -1,0 +1,35 @@
+#calendar {
+  margin: 0;
+  height: 100%;
+  width: 100%;
+  grid-row: 1 / span 6;
+  grid-column: 1 / span 9;
+  background-color: rgba(0, 0, 0, 0.2);
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-template-rows: repeat(1, 1fr);
+
+  #month {
+    display: grid;
+    grid-template-columns: repeat(7, 1fr);
+    grid-template-rows: repeat(8, 1fr);
+    place-items: center;
+
+    #header {
+      grid-row: 1;
+      grid-column: 1 / span 7;
+    }
+
+    .other {
+      color: red;
+    }
+
+    #today {
+      background-color: red;
+    }
+  }
+
+  #events {
+    background-color: rgba(0, 0, 0, 0.2);
+  }
+}

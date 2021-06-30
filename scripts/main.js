@@ -1,0 +1,2 @@
+loadWeather();
+loadCalendar();
