@@ -1,0 +1,9 @@
+{
+    "version": 3,
+    "mappings": "AAAA,AAAA,QAAQ,CAAC;EACL,OAAO,EAAE,KAAK;EACd,QAAQ,EAAE,UAAU;EACpB,WAAW,EAAE,UAAU;EACvB,MAAM,EAAE,IAAI;EACZ,KAAK,EAAE,IAAI;CACd",
+    "sources": [
+        "../weather.scss"
+    ],
+    "names": [],
+    "file": "weather.css"
+}
